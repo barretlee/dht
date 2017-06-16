@@ -1,0 +1,34 @@
+{
+  "name": "dht",
+  "version": "0.0.1",
+  "description": "dht",
+  "main": "index.js",
+  "dependencies": {
+    "bittorrent-dht": "^7.5.3",
+    "co": "^4.6.0",
+    "debug": "^2.6.8",
+    "eslint": "^4.0.0",
+    "koa": "^2.2.0",
+    "magnet-uri": "^5.1.7"
+  },
+  "devDependencies": {
+    "babel-register": "^6.24.1",
+    "eslint": "^4.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "init": "npm i",
+    "test": "./node_modules/.bin/eslint --fix .; mocha ./__test__/"
+  },
+  "keywords": [
+    "dht"
+  ],
+  "author": "Barret Lee <barret.china@gmail.com>",
+  "license": "ISC"
+}

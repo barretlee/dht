@@ -1,0 +1,4 @@
+--require babel-register
+--require ./helper
+--recursive
+--timeout 10000
